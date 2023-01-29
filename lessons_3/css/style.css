@@ -1,0 +1,119 @@
+@import url("reset.css");
+
+
+
+span{
+    color: rgb(0, 255, 64);
+}
+
+h1{
+    color: rgb(0, 123, 255);
+}
+
+
+h1 ~ p {
+    color: cadetblue;
+}
+
+.begin{
+    color: aqua;
+}
+
+.header .end{
+    color: blueviolet;
+}
+
+.pre-end.end{
+    color:darkblue;
+}
+
+
+ol,ol a{
+    color: rgb(100, 225, 237);
+}
+
+li>ol ,li>ol a{
+    color: rgb(42, 128, 165);
+}
+
+.plot #plot{
+    color: darkgreen;
+}
+
+.plot .sub-paragraph{
+    color: burlywood;
+}
+
+.plot .paragraph{
+    color: brown;
+}
+
+.sub-text.paragraph.text{
+    color: chartreuse;
+}
+
+.paragraph.text{
+    color: aqua;
+}
+
+.plot>h2 ~ p,
+.plot>h2 ~ a{
+    color: crimson;
+}
+
+#plot + p{
+    color:blueviolet;
+}
+
+[class*="___creation"]{
+    color: darkmagenta;
+}
+
+
+
+[class*="___creation"].history{
+    color: rgb(255, 177, 255);
+}
+
+.problems___creation.history{
+    color: aqua;
+}
+
+[class*="someth"]{
+    color: chartreuse;
+}
+
+
+
+.reaction ~ div{
+    color:red;
+} 
+
+.music > h2 ~ p{
+    color: green;
+}
+
+#sequels ~ p{
+    color: blue;
+}
+
+#sequels + p{
+    color: rgb(118, 118, 178);
+}
+
+#box-office + p{
+    color: blue;
+}
+
+.reaction h3{
+    color: red;
+}
+
+.reaction h2 + div{
+    color: cornflowerblue;
+}
+
+[class*="reviews"] *{
+    color: darkorange;
+}
+
