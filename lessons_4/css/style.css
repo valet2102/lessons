@@ -1,0 +1,212 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Caveat:500,700&display=swap");
+@import url("fonts.css");
+
+
+
+
+
+body{
+    color:darkblue;
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.4;
+    
+}
+
+.header{
+    font-family: "Caveat",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.navigation{
+    font-family: "Sofia Sans Extra Condensed",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style:italic;
+}
+
+
+
+
+.game-process{
+    font-family: "GOGOIA Deco",sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    color:crimson;
+}
+
+.plot{
+    font-family: "Teddy Bear",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.development{
+    font-family: "beer money",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.music,
+a{
+    font-family: "Caveat",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.8;
+    color: rgb(255, 80, 165);
+}
+
+.reviews{
+    font-family: "Lobster",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.sequel{
+    font-family: "Sofia Sans Extra Condensed",sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    font-size: 1.3;
+}
+
+.links{
+    font-family: "Sofia Sans Extra Condensed",sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    font-size: 2.4;
+}
+
+
+
+div a{
+    color:brown;
+    font-size: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.top-page > a{
+    color: blueviolet;
+    font-size: 30px;
+
+}
+
+ol,
+ul,
+h1,
+h2,
+h2,
+h3{
+    text-align: center;
+}
+
+h1,
+h3{
+    color: chartreuse;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    letter-spacing: 8px;
+}
+
+h1{
+    font-size: 60px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgb(26, 26, 26);
+}
+
+
+h2,
+h4{
+    color: darkgreen;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    text-decoration: overline;
+
+}
+
+
+
+header>img+p{
+    font-size: 15px;
+    color: rgb(235, 141, 19);
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: right;
+    line-height: 2;
+}
+header>img+p+p{
+
+    color: red;
+    text-transform: uppercase;
+    text-align: justify;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px rgb(203, 0, 0),1px 1px 1px rgb(124, 0, 0),1px 1px 1px rgb(82, 0, 0),3px 3px 6px rgb(0, 0, 0);
+}
+
+
+ol a,
+ul a{
+     color:aqua;
+
+}
+
+li ol a{
+      color:blue;
+}
+
+.game-process p+p{
+    white-space: nowrap;
+    font-size: 35px;
+    color: rgb(55, 0, 254);
+    text-transform: lowercase;
+}
+
+
+
+[class*="__plot"]{
+    color: deeppink;
+    text-shadow: 2px 2px 3px crimson;
+    text-align: justify;
+}
+
+h3#environment + p{
+    text-decoration: underline;
+    text-align: right;
+    color: blue;
+}
+
+.synopsis__plot{
+    text-indent: 40px;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.development p + p{
+    color: cornflowerblue;
+    text-align: right;
+    text-decoration: line-through;
+    letter-spacing: 15px;
+    text-shadow: 2px 2px 3px rgb(255, 68, 0);
+}
+
+#music + p{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: justify;
+    color: aqua;
+    letter-spacing: 6px;
+}
+
+.music p +p{
+    text-align: right;
+    text-decoration: underline;
+}

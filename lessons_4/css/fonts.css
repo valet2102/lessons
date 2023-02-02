@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'GOGOIA Deco';
+    src: url('../fonts/GOGOIA-Deco.woff2') format('woff2'), 
+        url('../fonts/GOGOIA-Deco.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teddy Bear';
+    src: url('../fonts/TeddyBear.woff2') format('woff2'),
+        url('../fonts/TeddyBear.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'beer money';
+    src: url('../fonts/beermoney.woff2') format('woff2'),
+        url('../fonts/beermoney.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
