@@ -1,0 +1,110 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap");
+
+body{
+    font-family: "Poppins",sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #6C757D;
+    line-height: 1.8;   
+   
+}
+
+[class *= "__container"]{
+    max-width: 846px;
+    padding: 0 15px;
+    margin: 0 auto 80px;
+}
+
+.header__page,
+.main__page{
+    margin-bottom: 80px;
+}
+
+
+[class *= "__title"]{
+    color: #212529;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.header__title{
+    max-width: 400px;
+}
+
+.main__title{
+    max-width: 605px;
+}
+
+[class*="__text"] p + p{
+    margin-top: 36px;
+}
+
+.header__img,
+.main__img{
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+
+.main__img{
+    
+    font-size: 0;
+    text-align: center;
+}
+
+
+
+.main__img div{
+    display: inline-block;
+    max-width: 605px;
+}
+
+
+
+.img-boat{
+   margin-right: 30px;
+  
+
+}
+
+
+
+[class*="__container"]>.footer__text{
+    margin-bottom: 40px;
+}
+
+.footer__title
+{
+    display: inline;
+    color: forestgreen;
+    font-size: 80px;
+    vertical-align: middle;
+}
+
+.copyright{
+    display: inline;
+}
+
+.copyright span,
+.copyright a{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.copyright a{
+    color: rgb(0, 208, 255);
+}
+
+
+
+
+
+
