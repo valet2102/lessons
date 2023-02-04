@@ -85,16 +85,18 @@ img{
     margin-bottom: 40px;
 }
 
+
 .footer__title
 {
-    display: inline-block;
+  
     color: forestgreen;
     font-size: 80px;
     margin-right: 30px;
     margin-bottom: 0;
 }
-
+.footer__title,
 .copyright{
+    vertical-align: middle;
     display: inline-block;
 }
 
