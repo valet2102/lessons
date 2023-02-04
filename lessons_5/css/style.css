@@ -47,6 +47,7 @@ body{
     max-width: 1270px;
     padding: 0 15px;
     margin: 0 auto;
+    text-align: center;
 }
 
 img{
@@ -70,9 +71,12 @@ img{
 
 
 .img-boat{
-   margin-right: 30px;
-  
+   margin-right: 20px;
+   
 
+}
+.img-lake{
+    margin-left: 5px;
 }
 
 
@@ -83,14 +87,15 @@ img{
 
 .footer__title
 {
-    display: inline;
+    display: inline-block;
     color: forestgreen;
     font-size: 80px;
-    vertical-align: middle;
+    margin-right: 30px;
+    margin-bottom: 0;
 }
 
 .copyright{
-    display: inline;
+    display: inline-block;
 }
 
 .copyright span,
@@ -104,7 +109,102 @@ img{
 }
 
 
+.some-practice{
+    text-align: center;
+}
+
+.testing{
+    font-size: 0;
+}
+
+.overflow-scroll,
+.overflow-auto{
+    vertical-align: top;
+    padding: 0 10px;
+    color:crimson;
+    font-size: 16px;
+    max-width: 50%;
+    display: inline-block;
+    max-height: 150px;
+    background-color: cadetblue;
+}
+
+.overflow-scroll{
+    
+    overflow-y: scroll;
+}
+
+.overflow-auto{
+   
+    white-space: nowrap;
+    overflow-x: auto;
+    background-color: burlywood;
+}
+
+h5{
+ 
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 15px;
+    color: darkgreen;
+    text-align: center;
+}
 
 
+.test-2{
+    background: #6C757D;
+    padding: 30px 0;
+}
 
+.fantom-space{
+    
+    /* padding: 30px 0; */
+    margin-bottom: 30px;
+}
 
+.test-2 a{
+    font-weight: 700;
+    font-size: 30px;
+   color: blue;
+   background-color: yellow;
+   display: inline-block;
+   padding: 20px;
+   
+}
+
+.margin-collapse a{
+    width: 100%;
+}
+
+.margin-collapse a+a~a{
+    background-color: green;
+    display: block;
+}
+
+.link-1{
+  margin-bottom: 50px;
+}
+
+.link-2{
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.link-3{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.link-4{
+    margin-top: 25px;
+}
+
+.test-2 p{
+    color: rgb(0, 255, 8);
+    font-size: 20px;
+    max-height: 60px;
+    overflow: auto;
+
+}
