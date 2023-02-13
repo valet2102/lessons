@@ -185,13 +185,14 @@ body{
 
 .list-traine__list>li{
     display: inline-block;
-    
+    max-width: 300px;
     margin-right: 50px;
     margin-bottom: 50px;
 }
 .list {
 }
 .list__inlist li{
+    
     padding: 2px;
     padding-left: 30px ;
     margin-bottom: 18px;
@@ -199,24 +200,53 @@ body{
 }
 
 .star li{
-    background: url("../img/star.png") left  no-repeat;
+    background: url("../img/star.png") left top  no-repeat;
 }
 .arrow li{
     background: url("../img/arrow.png") left   no-repeat;
 }
 .blue-circle li{
-    background: url("../img/circle-blue.png") left   no-repeat;
+    background: url("../img/circle-blue.png") left bottom  no-repeat;
 }
 .green-circle li{
-    background: url("../img/circle-green.png") left  no-repeat;
+    background: url("../img/circle-green.png") left top  no-repeat;
 }
 .red-circle li{
-    background: url("../img/circle-red.png") left   no-repeat;
+    background: url("../img/circle-red.png") left top  no-repeat;
 }
 .eclipce li{
     padding-left: 20px;
-    background: url("../img/eclipce.png") left   no-repeat;
+    background: url("../img/eclipce.png") left top  no-repeat;
 }
 
 
 
+.paralax {
+    min-height: 100%;
+    background-color: #212B36;
+    background: url("../img/mountain1.png") 0 100% / 45% 45%  no-repeat scroll,url("../img/mountain2.png") 100% 100%  / 65% 50%  no-repeat scroll,url("../img/mountain-snow.png") 0 0/cover no-repeat fixed;
+}
+
+.paralax__container{
+    margin: 0 auto;
+    color: #212B36;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1.5;
+    max-width: 1200px;
+    padding: 250px 15px 0;
+    text-align: center;
+   
+}
+
+.paralax__text{
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0, 250, 212, 0.254) 0%, rgba(255,255,255,0.4066001400560224) 100%);
+    text-shadow:0 5px  10px rgb(128, 228, 253),0 10px  5px rgb(0, 0, 0);
+}
+
+.the_end{
+    min-height: 100%;
+    width: 100%;
+    background-color: black;
+}
