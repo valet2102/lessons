@@ -57,12 +57,18 @@ body{
 }
 
 [class*="page__images"] img{
+    
     max-width: 605px;
     vertical-align: middle;
 }
 
 img{
     width: 100%;
+}
+
+[class*="page__images"] img,
+.desert-img{
+    border-radius: 5px;
 }
 
 .boat,
