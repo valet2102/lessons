@@ -151,7 +151,7 @@ button{
 .button a{
     padding: 15px;
     background-color: orange;
-    border-radius: 40%;
+    border-radius: 25px;
     border: 2px solid black;
     color: white;
     font-size: 25px;
