@@ -300,6 +300,8 @@ main{
     color: #F8F9FA;
     max-width: 293px;
 }
+
+
 .footer {
     padding: 100px 0;
     background-color: #212529;
@@ -314,7 +316,7 @@ main{
 
 .header-footer__logo,
 .nav,
-.social,
+.social-footer,
 .header-footer li {
     display: inline-block;
 }
@@ -332,19 +334,20 @@ main{
 }
 
 .nav__items ,
-.social__items {
+.social-footer__items {
     font-size: 0;
 }
 
 .nav__item,
-.social__item {
+.social-footer__item {
     font-weight: 500;
     font-size: 12px;
     line-height: 2.08;
     color: rgba(248, 249, 250, 0.5);
 }
 
-.nav__item:not(:last-child){
+.nav__item:not(:last-child),
+.social-footer__item:not(:last-child){
     margin-right: 25px;
 }
 
@@ -364,21 +367,3 @@ main{
     margin-right: 876px;
 }
 
-
-
-
-.test__block{
-    display: inline-block;
-}
-
-
-
-.test__items {
-    font-size: 0;
-}
-.test__item {
-    font-size: 16px;
-    display: inline-block;
-    padding: 10px;
-    border: 1px solid black;
-}
