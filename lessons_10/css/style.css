@@ -19,14 +19,14 @@ body{
 .header {
     margin-bottom: 100px;
 }
-.header__container {
-    font-size: 0;
-}
+
 .header__body {
-    
+    font-size: 0;
     padding: 37px 0;
    
 }
+
+
 
 
 .header__logo,
@@ -48,8 +48,8 @@ color: #495057;
 
 }
 
-.header__navigation,
-.header__social {
+.navigation__item,
+.social__item {
 
 font-weight: 500;
 font-size: 12px;
@@ -67,7 +67,7 @@ color: rgba(73, 80, 87, 0.5);
     margin-right: 25px;
 }
 .header__social {
-  margin-right: 15px;
+  margin-right: 20px;
    
 }
 
@@ -90,7 +90,7 @@ color: rgba(73, 80, 87, 0.5);
     height: 25px;
     background: #E5E5E5;
     vertical-align: top;
-    margin-left: 15px ;
+    margin-left: 20px ;
 }
 
 
