@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>lesson 16</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header></header>
+        <main class="wrapper__page page">
+            <div class="page__crisp crisp-block">
+                <div class="crisp-block__container">
+                    <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="crisp-block__form">
+                        <div class="crisp-block__shippins shipping-adress">
+                            <h2 class="shipping-adress__title">Shipping Address</h2>
+                            <div class="shipping-adress__emails emails">
+                                <div class="emails__body">
+                                    <div class="emails__block">
+                                        <label for="crisp-email" class="emails__label">Email Address
+                                            <span>*</span></label>
+                                        <input required id="crisp-email" type="text" class="emails__input"
+                                            placeholder="Enter email">
+                                    </div>
+                                    <div class="emails__block">
+                                        <label for="crisp-password" class="emails__label">Password</label>
+                                        <input required id="crisp-password" type="password" class="emails__input"
+                                            placeholder="Enter password">
+                                    </div>
+                                    <div class="emails__block">
+                                        <label for="crisp-zip" class="emails__label">Zip/Postal Code</label>
+                                        <input required id="crisp-zip" type="password" class="emails__input"
+                                            placeholder="Enter Zip/Postal Code">
+                                    </div>
+                                </div>
+                                <h3 class="emails__sub-title">You already have an account with us. Sign in or
+                                    continue as guest.</h3>
+                                <div class="emails__button button-block">
+                                    <button type="submit" class="button-block__button">login</button>
+                                    <a class="button-block__link">Forgot Your Password?</a>
+                                </div>
+                                <div class="emails__body">
+                                    <div class="emails__block">
+                                        <label for="crisp-first-name-1" class="emails__label">First Name
+                                            <span>*</span></label>
+                                        <input required id="crisp-first-name-1" type="text" class="emails__input"
+                                            placeholder="Enter first name">
+                                    </div>
+                                    <div class="emails__block">
+                                        <label for="crisp-first-name-2" class="emails__label">First Name
+                                            <span>*</span></label>
+                                        <input required id="crisp-first-name-2" type="text" class="emails__input"
+                                            placeholder="Enter first name">
+                                    </div>
+                                    <div class="emails__block">
+                                        <label for="crisp-first-name-3" class="emails__label">First Name
+                                            <span>*</span></label>
+                                        <input required id="crisp-first-name-3" type="text" class="emails__input"
+                                            placeholder="Enter first name">
+                                    </div>
+                                    <div class="emails__block">
+                                        <label for="crisp-street-address" class="emails__label">Street Address
+                                            <span>*</span></label>
+                                        <div class="emails__input-body">
+                                            <input required id="crisp-street-address" type="text"
+                                                class="emails__input emails__input_fix"
+                                                placeholder="Enter Street Address ">
+                                            <input required id="crisp-street-address" type="text"
+                                                class="emails__input emails__input_fix"
+                                                placeholder="Enter Street Address ">
+                                            <input required id="crisp-street-address" type="text"
+                                                class="emails__input emails__input_fix"
+                                                placeholder="Enter Street Address ">
+                                        </div>
+
+                                    </div>
+                                    <div class="emails__block">
+                                        <label for="crisp-country-01" class="emails__label">Country
+                                            <span>*</span></label>
+                                        <input required id="crisp-country-01" type="text" class="emails__input"
+                                            placeholder="Enter your country">
+                                    </div>
+                                    <!-- --------------- -->
+                                    <div class="emails__block">
+                                        <label for="crisp-state" class="emails__label">State/Province
+                                            <span>*</span></label>
+                                        <select name="crisp-state" class="emails__select emails__input ">
+                                            <option value="" selected hidden class="emails__options">Please select a
+                                                region, state or
+                                                province</option>
+                                            <option value="" class="emails__options">Colorado</option>
+                                            <option value="" class="emails__options">Las Vegas</option>
+                                            <option value="" class="emails__options">Ohio</option>
+                                            <option value="" class="emails__options">Mexico</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <h2 class="shipping-adress__title shipping-adress__title_margin">Shipping Methods</h2>
+
+                            <div class="crisp-block__shipping">
+                                <div class="crisp-block__radio radio-price">
+                                    <input type="radio" id="5" class="radio-price__input" name="radio-price">
+                                    <label for="5" class="radio-price__label">$5.00</label>
+
+                                    <div class="radio-price__info-one">Fixed</div>
+                                    <div class="radio-price__info-two">Flat Rate</div>
+
+
+                                </div>
+                                <div class="crisp-block__radio radio-price">
+                                    <input type="radio" id="10" class="radio-price__input" name="radio-price">
+                                    <label for="10" class="radio-price__label">$10.00</label>
+                                    <div class="radio-price__info-one">Table Rate</div>
+                                    <div class="radio-price__info-two">Best Way</div>
+                                </div>
+
+                            </div>
+                            <div class="crisp-block__buttons nav-buttons">
+                                <button type="button" class="nav-buttons__button-next">next</button>
+                                <button type="button" class="nav-buttons__button-back">back</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="page__billing billing-block">
+                <div class="billing-block__container">
+                    <form action="https://jsonplaceholder.typicode.com/posts" class="billing-block__form" method="post">
+                        <h2 class="billing-block__title">Billing Details</h2>
+                        <div class="billing-block__billing-details">
+                            <div class="billing-block__details details-block">
+                                <input name="user-first-name" type="text" class="details-block__input"
+                                    placeholder="First name*" required>
+                            </div>
+                            <div class="billing-block__details details-block">
+                                <input name="user-last-name" type="text" class="details-block__input"
+                                    placeholder="Last name*" required>
+                            </div>
+                            <div class="billing-block__details details-block">
+                                <input name="user-address" type="text" class="details-block__input"
+                                    placeholder="Address*" required>
+                            </div>
+
+                            <div class="billing-block__details details-block">
+                                <input name="user-address-2" type="text" class="details-block__input"
+                                    placeholder="Address line 2*" required>
+                            </div>
+                            <!-- ------- -->
+                            <div class="billing-block__details details-block details-block_vector">
+                                <select name="country" id="" class="details-block__select">
+                                    <option value="" selected hidden class="details-block__option">Country*</option>
+                                    <option value="" class="details-block__option">France</option>
+                                    <option value="" class="details-block__option">USA</option>
+                                    <option value="" class="details-block__option">German</option>
+                                </select>
+                            </div>
+                            <div class="billing-block__details details-block">
+                                <input name="user-city" type="text" class="details-block__input"
+                                    placeholder="City/Town*" required>
+                            </div>
+                            <!-- ------- -->
+                            <div class="billing-block__details details-block">
+                                <input name="user-postcode" type="text" class="details-block__input"
+                                    placeholder="Postcode / ZIP*" required>
+                            </div>
+                            <div class="billing-block__details details-block">
+                                <input name="user-user-phone" type="tel" class="details-block__input"
+                                    placeholder="Phone*" required>
+                            </div>
+                            <div class="billing-block__details details-block">
+                                <input name="user-postcode" type="text" class="details-block__input"
+                                    placeholder="Postcode / ZIP*" required>
+                            </div>
+                            <div class="billing-block__details details-block">
+                                <input name="user-phone" type="tel" class="details-block__input" placeholder="Phone*"
+                                    required>
+                            </div>
+                            <!-- ------- -->
+                            <div class="billing-block__details details-block details-block_textarea">
+                                <textarea name="user-aditional-info" id="" class="details-block__textarea"
+                                    placeholder="Additional information"></textarea>
+                            </div>
+                        </div>
+                        <div class="billing-block__radio radio-block">
+                            <div class="radio-block__checkbox checkbox">
+                                <input type="checkbox" checked id="creat-acount" class="checkbox__input">
+                                <label for="creat-acount" class="checkbox__label">Create Account</label>
+                            </div>
+                            <div class="radio-block__checkbox checkbox">
+                                <input type="checkbox" id="different-address" class="checkbox__input">
+                                <label for="different-address" class="checkbox__label">Ship to a different
+                                    address?</label>
+                            </div>
+                        </div>
+                        <h2 class="billing-block__sub-title"> Apply Coupon to get discount!</h2>
+                        <div class="billing-block__coupon coupon">
+                            <input type="text" class="coupon__input" placeholder="Coupon code">
+                            <button type="submit" class="coupon__button">Apply Code</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+
+</body>
+
+</html>
