@@ -1,0 +1,44 @@
+@media (any-hover:hover) {
+    .header__logo:hover {
+        transform: scale(1.2);
+    }
+
+    .social-header__item:hover  .social-header__link,
+    .menu-header__item:hover .menu-header__link
+     {
+        color:#495057;
+    }
+
+
+    .block-image__author:hover::after,
+    .categories__item:hover .categories__link::after,
+    .social-header__item:hover  .social-header__link::after,
+    .menu-header__item:hover .menu-header__link::after
+    {
+        width: 100%;
+        left: 0;
+    }       
+    .header__search:hover{
+        transform: scale(1.5);
+    }
+
+
+    .block-image__title:hover{
+        color:#CCD5AE;
+        
+    }
+
+    .categories__item:hover .categories__link{
+        color: #495057;
+    }
+    .trending__image img:hover{
+        transform: scale(1.2) ;
+    }
+    .footer a:hover{
+        color: rgba(248, 249, 250, 1);
+    }
+    .header-footer__logo:hover{
+    transform: scale(1.1);
+}
+
+}

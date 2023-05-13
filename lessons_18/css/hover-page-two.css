@@ -1,0 +1,45 @@
+@media (any-hover:hover) {
+    .header__logo:hover{
+         transform: scale(1.1);
+    }
+    .page-topic__link:hover::before,
+    .header__item:hover .header__link::before{
+        left: 0;
+        width: 100%;
+    }
+    .page-topic__link:hover,
+    .header__item:hover .header__link{
+        color:#495057;
+    }
+    .header__sign-in:hover{
+    background-color: #DDBEA9;
+     color:#495057;
+    }
+
+    .header__get-start:hover{
+    color:#495057;
+    }
+    .header__item_parent:hover .header__sub-menu{
+        pointer-events: auto;
+        opacity: 1;
+        visibility: visible;
+        padding-top: 20px;
+    }
+      .footer a:hover{
+        color: rgba(248, 249, 250, 1);
+    }
+    .header-footer__logo:hover{
+         transform: scale(1.1);  
+    }
+    .item-topic__image:hover img{
+        transform: scale(1.15);
+    }
+    .advantages__link:hover{
+    color:#212529;
+    
+}
+
+.advantages__link:hover::before{
+   transform: rotate(135deg) scale(2) translateX(-1px);
+}
+}
