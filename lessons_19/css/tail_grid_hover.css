@@ -1,0 +1,162 @@
+@media (any-hover:hover) {
+    
+    .three-image__link:hover{
+        color: rgb(0, 153, 255);
+        text-decoration: underline;
+    }
+    .three-image__title:hover{
+        transform: scale(1.05);
+    color: orangered;
+    }
+    .three-image__image:hover::before{
+        opacity: 1;
+    
+        background: rgb(154,154,154);    
+        background: radial-gradient(circle, rgba(154,154,154,0) 50%, rgba(134,134,134,0.5) 100%);
+    
+    }
+    .latest-product__item:hover{
+        transform: scale(1.04);
+    }
+    
+    .customer-review__star:hover,
+    .trending-latest__star:hover,
+    .item-latest__star:hover{
+        transform: translateY(-25%) rotate(145deg) scale(1.25);
+    }
+    .trending-product__review:hover ,
+    .item-latest__review:hover{
+        color: #005eff;
+    }
+    .latest-collection__price:hover{
+        color:red;
+        text-decoration: underline;
+    }
+
+    .customer-review__button:hover,
+    .latest-product__button:hover{
+        
+        transform: rotateY(180deg);
+        background: #3056D3 url("../img/latest-products/arrow_white.svg") center no-repeat;
+    }
+    .customer-review__button_blue:hover,
+    .latest-product__button_blue:hover{
+        border: 1px solid #E7E7E7;
+            background: #fff url("../img/latest-products/arrow_grey.svg") center no-repeat;
+    }
+    .trending-product__price:hover{
+        transform: scale(1.1);
+        color: red;
+        box-shadow: 0 0 5px black;
+    }
+        .item-trending__image:hover{
+        box-shadow:  0 0 10px black;
+    }
+    .item-trending__image:hover img{
+        transform: scale(1.1);
+        
+    }
+    .customer-review__item:hover{
+        transform: scale(1.05);
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+    }
+    .customer-review__user-avatar:hover{
+        transform: rotate(360deg) scale(1.25);
+    }
+    .customer-review__user-name:hover{
+        color: #ff8989;
+        text-decoration: underline dashed rgb(0, 0, 0);
+    }
+        .customer-review__user-link:hover span{
+        transform: rotate(360deg) scale(1.2);
+    }
+        .customer-review__user-link:hover{
+        color:#4cb9fa;
+    }
+
+    .feature-products__item:hover{
+        box-shadow: 0 0 10px black;
+        transform: scale(1.01);
+    }
+
+
+
+    .feature-products__image:hover::before{
+        bottom: 0;
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+    .feature-products__image:hover .feature-products__icons-list{
+        bottom: 30px;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .feature-products__icon:hover{
+        transform: translateY(-25%);
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+        background: #0570fd87;
+    }
+        
+    .feature-products__price:hover{
+        color: red;
+        background: #0570fd87;
+        box-shadow: 0 0 10px black;
+        transform: scale(1.2);
+        
+    }   
+    .feature-products__title:hover{
+       color: #005eff;
+    }
+
+    .shop-category__button-exprole:hover::before{
+        transform:  translate(-100%,-80%) rotate(90deg);
+    }
+    .shop-category__button-exprole:hover{
+        color: #fff;
+    }
+        .shop-category__item:hover{
+        box-shadow: 0 0 5px black;
+    }
+
+    .shop-category__item:hover img{
+        transform: scale(1.1);
+    }
+    .item-category__text:hover{
+        color: #3056D3;
+    }
+       .item-category__title:hover{
+        color: orangered;
+    }   
+    .top-collections__item:hover{
+        box-shadow: 0 0 5px black;
+        transform: scale(1.03);
+    }
+
+    .item-collections-top__title:hover{
+        color: #3056D3;
+    }
+    .item-collections-top__shop-now-button:hover{
+        background-color: #212B36;
+        color: #fff;
+        transform: scale(1.1);
+    }
+
+
+    .danza-page__date:hover ,
+    .danza-page__interior:hover,
+    .danza-page__title:hover{
+        color: #3056D3;
+    }
+    .latest-collection__image:hover img{
+        transform: scale(1.1);
+    }
+    .danza-page__image:hover{
+        box-shadow: 0 0 20px black;
+    }
+    .danza-page__image:hover img{
+        transform: scale(1.1);
+    }
+}
