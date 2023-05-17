@@ -1,0 +1,22 @@
+%category-item {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%; // /* 18/12 */
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+
+%title-item {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%; //* 27/18 */
+    color: #000000;
+}
+
+%price-item {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%; // /* 33/22 */
+    text-transform: uppercase;
+    color: #000000;
+}
