@@ -1,0 +1,177 @@
+%before-line-under {
+    transition: all 0.4s;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    background-color: #DDBEA9;
+    height: rem(2);
+    border-radius: rem(2);
+}
+
+%before-line-under-active {
+    color: #F8F9FA;
+
+    &::before {
+        left: 0;
+        width: 100%;
+    }
+}
+
+
+.title {
+    font-weight: 700;
+    font-size: rem(25);
+    line-height: 1.6;
+
+}
+
+.title--white {
+    color: #F8F9FA;
+}
+
+.title--black {
+    color: #212529;
+}
+
+.page-num,
+.date,
+.text {
+    font-weight: 300;
+    font-size: rem(12);
+    line-height: 1.66;
+}
+
+.page-num,
+.date--white,
+.text--white {
+    color: #E5E5E5;
+}
+
+.date--black,
+.text--black {
+    color: #495057;
+}
+
+.title-12-25 {
+    font-weight: 500;
+    font-size: rem(12);
+    line-height: 2.08;
+}
+
+.title-12-25--black {
+    color: #495057;
+}
+
+.title-12-25--grey {
+    color: rgba(73, 80, 87, 0.5);
+}
+
+.title-12-25--white {
+    color: #F8F9FA;
+}
+
+
+//------------------ Footer
+.footer {
+    background-color: #212529;
+
+
+
+    &__container {}
+
+    &__wrapper {
+        font-weight: 500;
+        font-size: rem(12);
+        line-height: 1.67;
+        color: rgba(248, 249, 250, 0.5);
+    }
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: rem(105);
+        gap: rem(15) rem(15);
+        border-bottom: rem(1) solid rgba(229, 229, 229, 0.2);
+
+        @media (max-width: em(500)) {
+            flex-direction: column;
+            justify-content: center;
+
+        }
+    }
+
+    &__logo {
+        font-weight: 700;
+        font-size: rem(18);
+        line-height: 1.39;
+        color: #F8F9FA;
+        transition: all 0.4s;
+
+        @media (any-hover: hover) {
+            &:hover {
+                color: #DDBEA9;
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    &__list {
+        display: flex;
+        gap: rem(10) rem(25);
+    }
+
+    &__item {}
+
+    &__link {
+        display: inline-block;
+        position: relative;
+
+        &::before {
+
+            @extend %before-line-under;
+        }
+
+        @media (any-hover: hover) {
+            &:hover {
+                color: #F8F9FA;
+
+                &::before {
+                    left: 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: rem(100);
+        gap: rem(15) rem(15);
+
+        a {
+            transition: all 0.4s;
+
+            @media (any-hover: hover) {
+                &:hover {
+                    color: #F8F9FA;
+                }
+            }
+        }
+
+        @media (max-width: em(500)) {
+            flex-direction: column;
+            justify-content: center;
+
+        }
+    }
+
+    &__all-rights {}
+
+    &__location {}
+}
