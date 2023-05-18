@@ -1018,10 +1018,9 @@ body {
   color: #E5E5E5;
 }
 
-.main__big-world:not(:last-child) {
+.main:not(:last-child) {
   margin-bottom: 6.25rem;
 }
-
 .big-world__title {
   font-weight: 500;
   font-size: 1.5625rem;

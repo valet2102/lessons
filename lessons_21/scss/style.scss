@@ -1073,12 +1073,11 @@ body {
 // -------------------------------------------- Big world
 
 .main {
-
-    &__big-world {
-        &:not(:last-child) {
-            margin-bottom: rem(100);
-        }
+    &:not(:last-child) {
+        margin-bottom: rem(100);
     }
+
+    &__big-world {}
 }
 
 .big-world {
